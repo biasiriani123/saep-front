@@ -1,2 +1,98 @@
-// For information on how to create your own theme, please refer to:
-// https://ionicframework.com/docs/theming/
+// Ionic Pink Theme — Light Mode Only
+// Gerado para o projeto Saep
+
+:root {
+  // ── Cor primária: Rosa vibrante ──────────────────────────────
+  --ion-color-primary:          #E91E8C;
+  --ion-color-primary-rgb:      233, 30, 140;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade:    #cc1a7b;
+  --ion-color-primary-tint:     #eb3598;
+
+  // ── Secundária: Rosa médio ───────────────────────────────────
+  --ion-color-secondary:        #F06292;
+  --ion-color-secondary-rgb:    240, 98, 146;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade:  #d35680;
+  --ion-color-secondary-tint:   #f2729d;
+
+  // ── Terciária: Rosa claro / blush ────────────────────────────
+  --ion-color-tertiary:         #F8BBD0;
+  --ion-color-tertiary-rgb:     248, 187, 208;
+  --ion-color-tertiary-contrast: #5c0a2e;
+  --ion-color-tertiary-contrast-rgb: 92, 10, 46;
+  --ion-color-tertiary-shade:   #daa5b7;
+  --ion-color-tertiary-tint:    #f9c2d5;
+
+  // ── Sucesso ──────────────────────────────────────────────────
+  --ion-color-success:          #2dd36f;
+  --ion-color-success-rgb:      45, 211, 111;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade:    #28ba62;
+  --ion-color-success-tint:     #42d77d;
+
+  // ── Aviso ────────────────────────────────────────────────────
+  --ion-color-warning:          #ffc409;
+  --ion-color-warning-rgb:      255, 196, 9;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade:    #e0ac08;
+  --ion-color-warning-tint:     #ffca22;
+
+  // ── Perigo ───────────────────────────────────────────────────
+  --ion-color-danger:           #eb445a;
+  --ion-color-danger-rgb:       235, 68, 90;
+  --ion-color-danger-contrast:  #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade:     #cf3c4f;
+  --ion-color-danger-tint:      #ed576b;
+
+  // ── Escuro ───────────────────────────────────────────────────
+  --ion-color-dark:             #3d0022;
+  --ion-color-dark-rgb:         61, 0, 34;
+  --ion-color-dark-contrast:    #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade:       #36001e;
+  --ion-color-dark-tint:        #501a38;
+
+  // ── Médio ────────────────────────────────────────────────────
+  --ion-color-medium:           #c2185b;
+  --ion-color-medium-rgb:       194, 24, 91;
+  --ion-color-medium-contrast:  #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade:     #ab1550;
+  --ion-color-medium-tint:      #c82f6b;
+
+  // ── Claro ────────────────────────────────────────────────────
+  --ion-color-light:            #FCE4EC;
+  --ion-color-light-rgb:        252, 228, 236;
+  --ion-color-light-contrast:   #3d0022;
+  --ion-color-light-contrast-rgb: 61, 0, 34;
+  --ion-color-light-shade:      #dec9d0;
+  --ion-color-light-tint:       #fce7ee;
+
+  // ── Fundo e superfície ───────────────────────────────────────
+  --ion-background-color:        #fff5f8;
+  --ion-background-color-rgb:    255, 245, 248;
+
+  --ion-text-color:              #3d0022;
+  --ion-text-color-rgb:          61, 0, 34;
+
+  --ion-toolbar-background:      #E91E8C;
+  --ion-toolbar-color:           #ffffff;
+
+  --ion-tab-bar-background:      #ffffff;
+  --ion-tab-bar-color:           #c2185b;
+  --ion-tab-bar-color-selected:  #E91E8C;
+
+  --ion-card-background:         #ffffff;
+
+  --ion-item-background:         #ffffff;
+
+  --ion-border-color:            #F8BBD0;
+
+  --ion-placeholder-color:       #c2185b;
+}
