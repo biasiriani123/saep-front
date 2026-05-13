@@ -1,0 +1,42 @@
+<ion-content class="login-content">
+  <div class="login-wrapper">
+    <div class="login-card">
+      <h2 class="login-title">Sistema de Gestão de Estoque</h2>
+
+      <div class="form-group">
+        <label class="field-label">E-mail</label>
+        <ion-input
+          class="custom-input"
+          type="email"
+          placeholder="Digite seu e-mail"
+          [(ngModel)]="email"
+          clearInput
+        ></ion-input>
+      </div>
+
+      <div class="form-group">
+        <label class="field-label">Senha</label>
+        <ion-input
+          class="custom-input"
+          type="password"
+          placeholder="Digite sua senha"
+          [(ngModel)]="senha"
+          clearOnEdit="false"
+        ></ion-input>
+      </div>
+
+      <ion-button
+        expand="block"
+        class="btn-entrar"
+        (click)="entrar()"
+      >
+        Entrar
+      </ion-button>
+
+      <p class="link-cadastro">
+        Não tem uma conta?
+        <span class="link" (click)="irParaCadastro()">Cadastre-se</span>
+      </p>
+    </div>
+  </div>
+</ion-content>

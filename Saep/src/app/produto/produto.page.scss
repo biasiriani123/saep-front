@@ -1,0 +1,157 @@
+/* ── Toolbar ─────────────────────────────────────── */
+.main-toolbar {
+    --background: #2f2f2f;
+    --color: #fff;
+    --min-height: 48px;
+    padding: 0 10px;
+  }
+  
+  .toolbar-title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .toolbar-end {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .toolbar-greeting {
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  .btn-sair {
+    --background: #d32f2f;
+    --border-radius: 2px;
+    font-size: 11px;
+    height: 28px;
+  }
+  
+  /* ── Content ─────────────────────────────────────── */
+  .produtos-content {
+    --background: #f2f2f2;
+  }
+  
+  .page-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* ── Header ─────────────────────────────────────── */
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .section-subtitle {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* ── Actions ─────────────────────────────────────── */
+  .actions-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+  }
+  
+  /* ── Search Bar estilo sistema ───────────────────── */
+.search-bar {
+    --background: #ffffff;
+    --color: #333;
+    --placeholder-color: #888;
+    --icon-color: #666;
+  
+    height: 34px;
+    max-width: 260px;
+  
+    border: 1px solid #cfcfcf;
+    border-radius: 2px; // 🔥 menos arredondado
+  
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  
+    padding: 0;
+  }
+  
+  /* força o input interno ficar igual ao print */
+  .search-bar .searchbar-input {
+    height: 34px !important;
+    border-radius: 2px !important;
+    font-size: 12px;
+    padding-left: 30px !important;
+    box-shadow: none !important;
+  }
+  
+  /* ícone da lupa alinhado */
+  .search-bar .searchbar-search-icon {
+    left: 8px !important;
+    width: 14px !important;
+    height: 14px !important;
+  }
+  
+  /* remove aquele efeito moderno */
+  .search-bar .searchbar-clear-button {
+    display: none !important;
+  }
+  
+  .action-buttons ion-button {
+    height: 30px;
+    font-size: 11px;
+  }
+  
+  /* ── Table ───────────────────────────────────────── */
+  .table-wrapper {
+    background: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .produtos-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  
+  .produtos-table thead {
+    background: #2f2f2f;
+    color: #fff;
+  }
+  
+  .produtos-table th {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .produtos-table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .produtos-table tr:hover {
+    background: #f9f9f9;
+  }
+  
+  .estoque-baixo td {
+    background: #fff3e0;
+  }
+  
+  /* ── Botões ─────────────────────────────────────── */
+  .btn-editar {
+    --background: #f9a825;
+    font-size: 10px;
+    height: 26px;
+  }
+  
+  .btn-excluir {
+    --background: #d32f2f;
+    font-size: 10px;
+    height: 26px;
+  }
+  
+  .acoes-cell {
+    display: flex;
+    gap: 4px;
+  }
